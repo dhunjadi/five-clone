@@ -9,6 +9,7 @@ export default function Sections() {
             <Section
                 key={sectionProps.id}
                 divID={sectionProps.divID}
+                txtContainer={sectionProps.txtContainer}
                 titleClass={sectionProps.titleClass}
                 titleTxt={sectionProps.titleTxt}
                 headlineClass={sectionProps.headlineClass}
@@ -17,6 +18,10 @@ export default function Sections() {
                 paragraphTxt={sectionProps.paragraphTxt}
                 buttonClass={sectionProps.buttonClass}
                 buttonTxt={sectionProps.buttonTxt}
+                imgContainer={sectionProps.imgContainer}
+                img={sectionProps.img}
+                imgURL={sectionProps.imgURL}
+
             />
         )
     }

@@ -2,6 +2,7 @@ const SectionList = [
     {
         id: 1,
         divID: 'white',
+        txtContainer: 'white-txt-container',
         titleClass: '',
         titleTxt: '',
         headlineClass: 'white-headline',
@@ -9,11 +10,15 @@ const SectionList = [
         paragraphClass: 'white-paragraph',
         paragraphTxt: 'Whether we’re building a new product or improving an existing one, FIVE partners with our clients to make a measurable impact. We’ve helped hundreds of organizations, including large enterprises, small businesses and even non-profits.',
         buttonClass: 'white-button',
-        buttonTxt: 'Learn more about us'
+        buttonTxt: 'Learn more about us',
+        imgContainer: '',
+        img: '',
+        imgURL: ''
     },
     {
         id: 2,
         divID: 'yellow',
+        txtContainer: 'yellow-txt-container',
         titleClass: 'yellow-title',
         titleTxt: 'ROSETTA STONE',
         headlineClass: 'yellow-headline',
@@ -21,11 +26,15 @@ const SectionList = [
         paragraphClass: 'yellow-paragraph',
         paragraphTxt: "5.8x increased revenue for the world's premiere language-learning app.",
         buttonClass: '',
-        buttonTxt: ''
+        buttonTxt: '',
+        imgContainer: 'yellow-image-container',
+        img: 'yellow-image',
+        imgURL: 'https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2020/04/rosetta-case-mobile-384x780.png'
     },
     {
         id: 3,
         divID: 'purple',
+        txtContainer: 'purple-txt-container',
         titleClass: 'purple-title',
         titleTxt: 'MARRIOTT',
         headlineClass: 'purple-headline',
@@ -33,11 +42,15 @@ const SectionList = [
         paragraphClass: 'purple-paragraph',
         paragraphTxt: "More than 60% of Marriott's users return to the hotel industry's first virtual assistant, averaging 4-minute sessions with 50 exchanged messages",
         buttonClass: '',
-        buttonTxt: ''
+        buttonTxt: '',
+        imgContainer: 'purple-image-container',
+        img: 'purple-image',
+        imgURL: "https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2020/04/marriott-case-mobile-384x780.png"
     },
     {
         id: 4,
         divID: 'red',
+        txtContainer: 'red-txt-container',
         titleClass: 'red-title',
         titleTxt: 'SUPERMAJORITY',
         headlineClass: 'red-headline',
@@ -45,11 +58,15 @@ const SectionList = [
         paragraphClass: 'red-paragraph',
         paragraphTxt: "We are helping SuperMajority build tools used to create the largest women-to-women voter engagement program in 2020.",
         buttonClass: 'red-button',
-        buttonTxt: 'CASE STUDY COMING SOON'
+        buttonTxt: 'CASE STUDY COMING SOON',
+        imgContainer: 'red-image-container',
+        img: 'red-image',
+        imgURL: "https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2020/10/supermajority-case-desktop-1137x695.png"
     },
     {
         id: 5,
         divID: 'brown',
+        txtContainer: 'brown-txt-container',
         titleClass: 'brown-title',
         titleTxt: 'STARZ',
         headlineClass: 'brown-headline',
@@ -57,11 +74,15 @@ const SectionList = [
         paragraphClass: 'brown-paragraph',
         paragraphTxt: "We are partnering with Starz to increase engagement in the form of strategic and operational support for their CRM team.",
         buttonClass: 'brown-button',
-        buttonTxt: 'CASE STUDY COMING SOON'
+        buttonTxt: 'CASE STUDY COMING SOON',
+        imgContainer: 'brown-image-container',
+        img: 'brown-image',
+        imgURL: "https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2020/10/starz-case-mobile-384x780.png"
     },
     {
         id: 6,
         divID: 'blue',
+        txtContainer: 'blue-txt-container',
         titleClass: 'blue-title',
         titleTxt: 'PIMCO',
         headlineClass: 'blue-headline',
@@ -69,11 +90,15 @@ const SectionList = [
         paragraphClass: 'blue-paragraph',
         paragraphTxt: "FIVE is supporting PIMCO in their digital transformation by designing systems focused on their employees and customers.",
         buttonClass: 'blue-button',
-        buttonTxt: 'CASE STUDY COMING SOON'
+        buttonTxt: 'CASE STUDY COMING SOON',
+        imgContainer: 'blue-image-container',
+        img: 'blue-image',
+        imgURL: "https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2020/10/pimco-case-desktop-1177x695.png"
     },
     {
         id: 7,
         divID: 'green',
+        txtContainer: 'green-txt-container',
         titleClass: 'green-title',
         titleTxt: 'MINT MOBILE',
         headlineClass: 'green-headline',
@@ -81,11 +106,15 @@ const SectionList = [
         paragraphClass: 'green-paragraph',
         paragraphTxt: "With its gamified experiance and easy to use features, the Mint Mobile App saw a 400% increase in customer activations upsells and a 50% increase in user retention.",
         buttonClass: 'green-button',
-        buttonTxt: 'CASE STUDY COMING SOON'
+        buttonTxt: 'CASE STUDY COMING SOON',
+        imgContainer: 'green-image-container',
+        img: 'green-image',
+        imgURL: "https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2020/04/mint-mobile-case-mobile-384x780.png"
     },
     {
         id: 8,
         divID: 'pink',
+        txtContainer: 'pink-txt-container',
         titleClass: 'pink-title',
         titleTxt: 'NANIT',
         headlineClass: 'pink-headline',
@@ -93,11 +122,15 @@ const SectionList = [
         paragraphClass: 'pink-paragraph',
         paragraphTxt: "Nanit is the most sophisticated baby monitor on the market. Computer vision and machine learning help parents better understand their baby's sleep.",
         buttonClass: '',
-        buttonTxt: ''
+        buttonTxt: '',
+        imgContainer: 'pink-image-container',
+        img: 'pink-image',
+        imgURL: "https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2020/04/nanit-case-mobile-384x780.png"
     },
     {
         id: 9,
         divID: 'aqua',
+        txtContainer: 'aqua-txt-container',
         titleClass: 'aqua-title',
         titleTxt: 'MOONLITE',
         headlineClass: 'aqua-headline',
@@ -105,7 +138,10 @@ const SectionList = [
         paragraphClass: 'aqua-paragraph',
         paragraphTxt: "Acquisition cost -70%; Bounce rate -30%; Add to cart rate +80%; Conversion rate +90%; Average order value +20% and +50% customer lifetime value",
         buttonClass: '',
-        buttonTxt: ''
+        buttonTxt: '',
+        imgContainer: 'aqua-image-container',
+        img: 'aqua-image',
+        imgURL: 'https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2020/04/moonlite-case-mobile-384x780.png'
     }
 ]
 

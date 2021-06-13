@@ -6,6 +6,7 @@ export default function Navbar() {
             <div className="logo">
                 <h1>FAJV</h1>
             </div>
+            <div className="links">
             <ul>
                 <li>ABOUT</li>
                 <li>SERVICES</li>
@@ -14,6 +15,8 @@ export default function Navbar() {
                 <li>BLOG</li>
                 <li>CONTACT</li>
             </ul>
+            </div>
+
         </nav>
     )
 }
