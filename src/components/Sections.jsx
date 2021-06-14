@@ -19,8 +19,11 @@ export default function Sections() {
                 buttonClass={sectionProps.buttonClass}
                 buttonTxt={sectionProps.buttonTxt}
                 imgContainer={sectionProps.imgContainer}
+                imgDiv={sectionProps.imgDiv}
                 img={sectionProps.img}
                 imgURL={sectionProps.imgURL}
+                imgBgContainer={sectionProps.imgBgContainer}
+                imgBg={sectionProps.imgBg}
 
             />
         )

@@ -13,7 +13,9 @@ const SectionList = [
         buttonTxt: 'Learn more about us',
         imgContainer: '',
         img: '',
-        imgURL: ''
+        imgURL: '',
+        imgBgContainer: '',
+        imgBg: ''
     },
     {
         id: 2,
@@ -28,8 +30,11 @@ const SectionList = [
         buttonClass: '',
         buttonTxt: '',
         imgContainer: 'yellow-image-container',
+        imgDiv: 'yellow-img-div',
         img: 'yellow-image',
-        imgURL: 'https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2020/04/rosetta-case-mobile-384x780.png'
+        imgURL: 'https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2020/04/rosetta-case-mobile-384x780.png',
+        imgBgContainer: 'yellow-img-bg-container',
+        imgBg: 'yellow-img-bg'
     },
     {
         id: 3,
@@ -45,7 +50,8 @@ const SectionList = [
         buttonTxt: '',
         imgContainer: 'purple-image-container',
         img: 'purple-image',
-        imgURL: "https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2020/04/marriott-case-mobile-384x780.png"
+        imgURL: "https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2020/04/marriott-case-mobile-384x780.png",
+        imgBg: 'purple-img-bg'
     },
     {
         id: 4,
@@ -61,7 +67,8 @@ const SectionList = [
         buttonTxt: 'CASE STUDY COMING SOON',
         imgContainer: 'red-image-container',
         img: 'red-image',
-        imgURL: "https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2020/10/supermajority-case-desktop-1137x695.png"
+        imgURL: "https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2020/10/supermajority-case-desktop-1137x695.png",
+        imgBg: 'red-img-bg'
     },
     {
         id: 5,
@@ -77,7 +84,8 @@ const SectionList = [
         buttonTxt: 'CASE STUDY COMING SOON',
         imgContainer: 'brown-image-container',
         img: 'brown-image',
-        imgURL: "https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2020/10/starz-case-mobile-384x780.png"
+        imgURL: "https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2020/10/starz-case-mobile-384x780.png",
+        imgBg: 'brown-img-bg'
     },
     {
         id: 6,
@@ -93,7 +101,8 @@ const SectionList = [
         buttonTxt: 'CASE STUDY COMING SOON',
         imgContainer: 'blue-image-container',
         img: 'blue-image',
-        imgURL: "https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2020/10/pimco-case-desktop-1177x695.png"
+        imgURL: "https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2020/10/pimco-case-desktop-1177x695.png",
+        imgBg: 'blue-img-bg'
     },
     {
         id: 7,
@@ -109,7 +118,8 @@ const SectionList = [
         buttonTxt: 'CASE STUDY COMING SOON',
         imgContainer: 'green-image-container',
         img: 'green-image',
-        imgURL: "https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2020/04/mint-mobile-case-mobile-384x780.png"
+        imgURL: "https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2020/04/mint-mobile-case-mobile-384x780.png",
+        imgBg: 'green-img-bg'
     },
     {
         id: 8,
@@ -125,7 +135,8 @@ const SectionList = [
         buttonTxt: '',
         imgContainer: 'pink-image-container',
         img: 'pink-image',
-        imgURL: "https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2020/04/nanit-case-mobile-384x780.png"
+        imgURL: "https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2020/04/nanit-case-mobile-384x780.png",
+        imgBg: 'pink-img-bg'
     },
     {
         id: 9,

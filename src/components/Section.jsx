@@ -16,7 +16,13 @@ export default function Section(props) {
                 </div>
             </div>
             <div className={props.imgContainer}>
-                <img className={props.img} src={props.imgURL} alt="fdsfs" />
+                <div className={props.imgBgContainer}>
+                    <div className={props.imgBg}></div>
+                </div>
+                <div className={props.imgDiv}>
+                    <img className={props.img} src={props.imgURL} alt="img" />
+                </div>
+
             </div>
         </div>
     )
