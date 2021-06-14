@@ -57,20 +57,21 @@ nav{
 
 #yellow{
     background-color: #fbcf10;
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
+    width: 100%;
+    overflow: auto;
     padding: 156px 0;
 }
 
 .yellow-txt-container{
-    max-width: 50%;
+    float: left;
+    max-width: 1100px;
     padding-left: 3rem;
     padding-right: 3rem;
     margin-left: 8.33%;
+}
+
+.yellow-title{
+    margin-bottom: 48px;
 }
 
 .yellow-title h3{
@@ -81,11 +82,26 @@ nav{
 .yellow-headline h1{
     font-size: 130px;
     color: #0a56ee;
+    margin-bottom: 48px;
+}
+
+.yellow-paragraph{
+    padding: 0 30px 0 30px;
+    margin: 0 -30px 0 -30px;
 }
 
 .yellow-paragraph p{
     font-size: 24px;
     color: #0a56ee;
+}
+
+.yellow-image-container{
+
+}
+
+.yellow-image-container img{
+    width: 384px;
+    height: auto;
 }
 
 
@@ -94,12 +110,22 @@ nav{
 
 #purple{
     background-color: #5b4099;
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
+    width: 100%;
+    overflow: auto;
+    padding: 156px 0;
+}
+
+.purple-txt-container{
+    display: block;
+    float: right;
+    max-width: 50%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: 8.33%;
+}
+
+.purple-title{
+    margin-bottom: 48px;
 }
 
 .purple-title h3{
@@ -110,6 +136,12 @@ nav{
 .purple-headline h1{
     font-size: 130px;
     color: #54deea;
+    margin-bottom: 48px;
+}
+
+.purple-paragraph{
+    padding: 0 30px 0 30px;
+    margin: 0 -30px 0 -30px;
 }
 
 .purple-paragraph p{
@@ -117,16 +149,37 @@ nav{
     color: #54deea;
 }
 
+.purple-image-container{
+display: block;
+max-width: 50%;
+}
+
+.purple-image-container img{
+    width: 384px;
+    height: auto;
+}
+
+
+
 /* RED */
 
 #red{
     background-color: #5e0541;
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
+    width: 100%;
+    overflow: auto;
+    padding: 156px 0;
+}
+
+.red-txt-container{
+    float: left;
+    max-width: 1100px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: 8.33%;
+}
+
+.red-title{
+    margin-bottom: 48px;
 }
 
 .red-title h3{
@@ -137,6 +190,12 @@ nav{
 .red-headline h1{
     font-size: 130px;
     color: #fa7500;
+    margin-bottom: 48px;
+}
+
+.red-paragraph{
+    padding: 0 30px 0 30px;
+    margin: 0 -30px 0 -30px;
 }
 
 .red-paragraph p{
@@ -144,20 +203,35 @@ nav{
     color: #fa7500;
 }
 
-.red-paragraph span{
-    color: #fa7500;
+.red-image-container{
+
+}
+
+.red-image-container img{
+    width: 384px;
+    height: auto;
 }
 
 /* BROWN */
 
 #brown{
-    background-color: #33332d;
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
+    background-color: #33332d;;
+    width: 100%;
+    overflow: auto;
+    padding: 156px 0;
+}
+
+.brown-txt-container{
+    display: block;
+    float: right;
+    max-width: 50%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: 8.33%;
+}
+
+.brown-title{
+    margin-bottom: 48px;
 }
 
 .brown-title h3{
@@ -168,6 +242,12 @@ nav{
 .brown-headline h1{
     font-size: 130px;
     color: #e0e0e0;
+    margin-bottom: 48px;
+}
+
+.brown-paragraph{
+    padding: 0 30px 0 30px;
+    margin: 0 -30px 0 -30px;
 }
 
 .brown-paragraph p{
@@ -175,20 +255,35 @@ nav{
     color: #e0e0e0;
 }
 
-.brown-paragraph span{
-    color: #e0e0e0;
+.brown-image-container{
+display: block;
+max-width: 50%;
+}
+
+.brown-image-container img{
+    width: 384px;
+    height: auto;
 }
 
 /* BLUE */
 
 #blue{
     background-color: #033068;
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
+    width: 100%;
+    overflow: auto;
+    padding: 156px 0;
+}
+
+.blue-txt-container{
+    float: left;
+    max-width: 1100px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: 8.33%;
+}
+
+.blue-title{
+    margin-bottom: 48px;
 }
 
 .blue-title h3{
@@ -199,6 +294,12 @@ nav{
 .blue-headline h1{
     font-size: 130px;
     color: #aee6cb;
+    margin-bottom: 48px;
+}
+
+.blue-paragraph{
+    padding: 0 30px 0 30px;
+    margin: 0 -30px 0 -30px;
 }
 
 .blue-paragraph p{
@@ -206,20 +307,35 @@ nav{
     color: #aee6cb;
 }
 
-.blue-paragraph span{
-    color: #aee6cb;
+.blue-image-container{
+
+}
+
+.blue-image-container img{
+    width: 384px;
+    height: auto;
 }
 
 /* GREEN */
 
 #green{
     background-color: #55a475;
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
+    width: 100%;
+    overflow: auto;
+    padding: 156px 0;
+}
+
+.green-txt-container{
+    display: block;
+    float: right;
+    max-width: 50%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: 8.33%;
+}
+
+.green-title{
+    margin-bottom: 48px;
 }
 
 .green-title h3{
@@ -230,6 +346,12 @@ nav{
 .green-headline h1{
     font-size: 130px;
     color: #fff3b6;
+    margin-bottom: 48px;
+}
+
+.green-paragraph{
+    padding: 0 30px 0 30px;
+    margin: 0 -30px 0 -30px;
 }
 
 .green-paragraph p{
@@ -237,20 +359,35 @@ nav{
     color: #fff3b6;
 }
 
-.green-paragraph span{
-    color: #fff3b6;
+.green-image-container{
+display: block;
+max-width: 50%;
+}
+
+.green-image-container img{
+    width: 384px;
+    height: auto;
 }
 
 /* PINK */
 
 #pink{
     background-color: #f2d3d3;
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
+    width: 100%;
+    overflow: auto;
+    padding: 156px 0;
+}
+
+.pink-txt-container{
+    float: left;
+    max-width: 1100px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: 8.33%;
+}
+
+.pink-title{
+    margin-bottom: 48px;
 }
 
 .pink-title h3{
@@ -261,6 +398,12 @@ nav{
 .pink-headline h1{
     font-size: 130px;
     color: #22354f;
+    margin-bottom: 48px;
+}
+
+.pink-paragraph{
+    padding: 0 30px 0 30px;
+    margin: 0 -30px 0 -30px;
 }
 
 .pink-paragraph p{
@@ -268,20 +411,35 @@ nav{
     color: #22354f;
 }
 
-.pink-paragraph span{
-    color: #22354f;
+.pink-image-container{
+
+}
+
+.pink-image-container img{
+    width: 384px;
+    height: auto;
 }
 
 /* AQUA */
 
 #aqua{
     background-color: #96d8f4;
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
+    width: 100%;
+    overflow: auto;
+    padding: 156px 0;
+}
+
+.aqua-txt-container{
+    display: block;
+    float: right;
+    max-width: 50%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: 8.33%;
+}
+
+.aqua-title{
+    margin-bottom: 48px;
 }
 
 .aqua-title h3{
@@ -292,6 +450,12 @@ nav{
 .aqua-headline h1{
     font-size: 130px;
     color: #9b4459;
+    margin-bottom: 48px;
+}
+
+.aqua-paragraph{
+    padding: 0 30px 0 30px;
+    margin: 0 -30px 0 -30px;
 }
 
 .aqua-paragraph p{
@@ -299,6 +463,12 @@ nav{
     color: #9b4459;
 }
 
-.aqua-paragraph span{
-    color: #9b4459;
+.aqua-image-container{
+display: block;
+max-width: 50%;
+}
+
+.aqua-image-container img{
+    width: 384px;
+    height: auto;
 }
