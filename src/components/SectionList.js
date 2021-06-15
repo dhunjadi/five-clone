@@ -94,7 +94,7 @@ const SectionList = [
         titleClass: 'blue-title',
         titleTxt: 'PIMCO',
         headlineClass: 'blue-headline',
-        headlineTxt: '$1.92 Trillion Assets Under Management',
+        headlineTxt: `$1.92$ Trillion Assets Under Management`,
         paragraphClass: 'blue-paragraph',
         paragraphTxt: "FIVE is supporting PIMCO in their digital transformation by designing systems focused on their employees and customers.",
         buttonClass: 'blue-button',
