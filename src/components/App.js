@@ -3,6 +3,7 @@ import '../styles.css'
 import Navbar from './Navbar'
 import Sections from './Sections'
 import Services from './Services'
+import Contact from './Contact'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Sections />
       <Services />
+      <Contact />
     </div>
   );
 }

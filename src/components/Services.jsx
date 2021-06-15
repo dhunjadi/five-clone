@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Services() {
     return (
-        <div id='services'>
+        <div id='services' className='animate__animated animate__fadeInUp'>
             <div className="work-div">
                 <span>See all work</span>
             </div>
@@ -12,10 +12,10 @@ export default function Services() {
             </div>
 
             <ol>
-                <li>Product Discovery</li>
-                <li>Design</li>
-                <li>Development</li>
-                <li>Growth Marketing</li>
+                <li> <span>01</span> Product Discovery</li>
+                <li> <span>02</span> Design</li>
+                <li> <span>03</span> Development</li>
+                <li> <span>04</span> Growth Marketing</li>
             </ol>
             <div className="learn-more">
                 <span>Learn more about our services</span>
