@@ -6,13 +6,14 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+
 /* NAVBAR */
 
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 48px 120px 24px 120px;
+    padding: 48px 12rem 24px 12rem;
 }
 
 .links ul {
@@ -572,6 +573,8 @@ nav {
 }
 
 .work-div span {
+    padding-left: 3rem;
+    padding-right: 3rem;
     margin-left: 8.33%;
     font-size: 18px;
     font-weight: 700;
@@ -586,12 +589,16 @@ nav {
     font-size: 76px;
     line-height: 90px;
     margin-bottom: 64px;
+    padding-left: 3rem;
+    padding-right: 3rem;
     margin-left: 8.33%;
 }
 
 #services p {
     font-size: 24px;
     line-height: 44px;
+    padding-left: 3rem;
+    padding-right: 3rem;
     margin-left: 8.33%;
 }
 
@@ -614,10 +621,14 @@ nav {
     left: -100px;
     font-size: 12px;
     line-height: 20px;
+    padding-left: 3rem;
+    padding-right: 3rem;
     margin-left: 8.33%;
 }
 
 .learn-more span {
+    padding-left: 3rem;
+    padding-right: 3rem;
     margin-left: 8.33%;
     font-size: 18px;
     font-weight: 700;
@@ -627,21 +638,26 @@ nav {
 
 #contact {
     background-color: rgba(16, 25, 33, .05);
+    padding: 224px 0 224px 0;
 }
 
 .contact-title {
-    margin: 96px 0 64px 0;
+    margin-bottom:  64px;
 }
 
 .contact-title h2 {
     font-size: 40px;
     line-height: 50px;
+    padding-left: 3rem;
+    padding-right: 3rem;
     margin-left: 8.33%;
 }
 
 .form-container form {
     display: flex;
     flex-direction: column;
+    padding-left: 3rem;
+    padding-right: 3rem;
     margin-left: 8.33%;
     max-width: 630px;
 }
@@ -667,4 +683,89 @@ font-weight: 700;
 .form-container form input:focus {
     outline: none;
     border-bottom: 1px solid black;
+}
+
+/* FOOTER */
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 12rem 0 12rem;
+}
+
+.footer-up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 64px;  
+}
+
+.footer-up-left{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-card{
+    margin-bottom: 64px;
+    padding: 0 64px 0 64px;
+}
+
+.card-title{
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.card-street, .card-postal, .card-link{
+    color: rgba(16,25,33,.5);;
+}
+
+.card-street{
+    margin-bottom: 12px;
+}
+
+.card-postal{
+    margin-bottom: 24px;
+}
+
+.footer-up-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.fab{
+    margin: 90px 8px 0 8px;
+}
+
+.footer-title p{
+    font-weight: 700;
+    text-align: right;
+}
+
+.footer-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 64px 0 64px;
+}
+
+.footer-links{
+    padding: 32px 0;
+}
+
+.footer-links a{
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 48px;
+
+}
+
+.copyright{
+    padding: 32px 0;
+}
+
+.copyright p{
+    font-weight: 700;
+    text-align: right;
 }
