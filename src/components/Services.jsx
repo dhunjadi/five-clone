@@ -4,7 +4,9 @@ export default function Services() {
     return (
         <div id='services' className='animate__animated animate__fadeInUp'>
             <div className="work-div">
+                <div className='work-div-hover'></div>
                 <span>See all work</span>
+                
             </div>
             <div className="services-txt">
                 <h1>Our services</h1>
@@ -18,6 +20,7 @@ export default function Services() {
                 <li> <span>04</span> Growth Marketing</li>
             </ol>
             <div className="learn-more">
+                <div className="learn-more-hover"></div>
                 <span>Learn more about our services</span>
             </div>
 

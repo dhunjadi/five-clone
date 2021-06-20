@@ -26,12 +26,12 @@ export default function Footer() {
                     <div className="footer-title">
                         <p>We deliver results.</p>
                         <div className="footer-socials">
-                            <i class="fab fa-facebook-square fa-2x"></i>
-                            <i class="fab fa-twitter-square fa-2x"></i>
-                            <i class="fab fa-instagram fa-2x"></i>
-                            <i class="fab fa-linkedin fa-2x"></i>
-                            <i class="fab fa-dribbble fa-2x"></i>
-                            <i class="fab fa-github-square fa-2x"></i>
+                            <i className="fab fa-facebook-square fa-2x"></i>
+                            <i className="fab fa-twitter-square fa-2x"></i>
+                            <i className="fab fa-instagram fa-2x"></i>
+                            <i className="fab fa-linkedin fa-2x"></i>
+                            <i className="fab fa-dribbble fa-2x"></i>
+                            <i className="fab fa-github-square fa-2x"></i>
                         </div>
                     </div>
                 </div>

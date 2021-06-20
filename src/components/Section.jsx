@@ -12,7 +12,8 @@ export default function Section(props) {
                 </div>
                 <div className={props.paragraphClass}>
                     <p>{props.paragraphTxt}</p>
-                    <span>{props.buttonTxt}</span>
+
+                    <div>{props.buttonTxt}</div>
                 </div>
             </div>
             <div className={props.imgContainer}>

@@ -13,9 +13,13 @@ export default function Contact() {
                     <input type="tel" placeholder='Phone Number' value-size='40' />
                     <input type="text" placeholder={`Tell us more about your project & scope`} value-size='40' />
                     <div className="checkbox-div">
-                        <input type="checkbox" /> <span>I have read and agree with FIVE's <a href='/'>privacy policy</a>.</span>
+                        <input type="checkbox" disabled={true} /> <span>I have read and agree with FIVE's <a href='/'>privacy policy</a>.</span>
                     </div>
-                    <span className='btn'>Send it!</span>
+                    <div className="send-it-btn">
+                        <span className='btn'>Send it!</span>
+                        <div className="send-it-hover"></div>
+                    </div>
+
                 </form>
             </div>
         </div>
