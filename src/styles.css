@@ -9,14 +9,24 @@
 
 /* NAVBAR */
 
-nav {
-    background-color: transparent;
+#navbar {
     width: 100%;
     position: fixed;
+    top: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 48px 12rem 24px 12rem;
+    z-index: 99;
+    transition: all 0.2s ease;
+}
+
+.scroll-up{
+    top: 0;
+}
+
+.scroll-down{
+    top: -100px;
 }
 
 .links ul {
@@ -26,12 +36,14 @@ nav {
     justify-content: space-between;
 }
 
-.links ul li {
+.links ul li a{
     margin: 0 32px 0;
     opacity: 0.5;
+    cursor: pointer;
+    font-weight: 700;
 }
 
-.links ul li:hover {
+.links ul li a:hover {
     opacity: 1;
     transition: opacity 0.5s;
 }
@@ -96,7 +108,7 @@ nav {
 }
 
 .white-button-hover {
-    z-index: 98;
+    z-index: 2;
     width: 64px;
     height: 64px;
     position: absolute;
@@ -111,8 +123,8 @@ nav {
 
 .btn-container:hover .white-button-hover {
     background-position: right bottom;
-    opacity: 1;
-    width: 192px;
+    opacity: 0.6;
+    width: 220px;
 }
 
 .btn-container:hover span {

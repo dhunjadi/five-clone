@@ -9,33 +9,61 @@ import White from './White'
 
 function App() {
 
-  const [navTxtColor, setNavTxtColor] = useState('')
+  const [navColor, setNavColor] = useState({})
 
-
-
-  window.addEventListener('scroll', setNavTxtColor)
+  window.addEventListener('scroll', setNavColor)
 
   function handleNavTxtColor(){
-    if(window.scrollY === 0 && window.scrollY < 830) {
-      setNavTxtColor('black')
-    } else if(window.scrollY > 830 && window.scrollY <= 1930){
-      setNavTxtColor('#0a56ee')
-    } else if(window.scrollY > 1930 && window.scrollY <= 3020){
-      setNavTxtColor('#54deea')
-    } else if(window.scrollY > 3020 && window.scrollY <= 4030){
-      setNavTxtColor('#fa7500')
-    } else if(window.scrollY > 4030 && window.scrollY <= 5130){
-      setNavTxtColor('#e0e0e0')
-    } else if(window.scrollY > 5130 && window.scrollY <= 6520){
-      setNavTxtColor('#aee6cb')
-    } else if(window.scrollY > 6520 && window.scrollY <= 7600){
-      setNavTxtColor('#fff3b6')
-    } else if(window.scrollY > 7600 && window.scrollY <= 8700){
-      setNavTxtColor('#22354f')
-    } else if(window.scrollY > 8700 && window.scrollY <= 8930){
-      setNavTxtColor('#9b4459')
+    if(window.pageYOffset === 0 && window.scrollY < 830) {
+      setNavColor({
+        txt: 'black',
+        bg: 'white'
+      })
+    } else if(window.pageYOffset > 830 && window.pageYOffset <= 1930){
+      setNavColor({
+        txt: '#0a56ee',
+        bg: 'fbcf10;'
+      })
+    } else if(window.pageYOffset > 1930 && window.pageYOffset <= 3020){
+      setNavColor({
+        txt: '54deea',
+        bg: '#5b4099'
+      })
+    } else if(window.pageYOffset > 3020 && window.pageYOffset <= 4030){
+      setNavColor({
+        txt: '#fa7500',
+        bg: '#5e0541'
+      })
+    } else if(window.pageYOffset > 4030 && window.pageYOffset <= 5130){
+      setNavColor({
+        txt: '#e0e0e0',
+        bg: '#33332d'
+      })
+    } else if(window.pageYOffset > 5130 && window.pageYOffset <= 6520){
+      setNavColor({
+        txt: '#aee6cb',
+        bg: '#033068'
+      })
+    } else if(window.pageYOffset > 6520 && window.pageYOffset <= 7600){
+      setNavColor({
+        txt: '#fff3b6',
+        bg: '#55a475'
+      })
+    } else if(window.pageYOffset > 7600 && window.pageYOffset <= 8700){
+      setNavColor({
+        txt: '#22354f',
+        bg: '#f2d3d3'
+      })
+    } else if(window.pageYOffset > 8700 && window.pageYOffset <= 9800){
+      setNavColor({
+        txt: '#9b4459',
+        bg: '#96d8f4;'
+      })
     } else {
-      setNavTxtColor('black')
+      setNavColor({
+        txt: 'black',
+        bg: 'white'
+      })
     }
   }
 
@@ -47,7 +75,7 @@ function App() {
     <div className="App">
       <main>
         <Navbar 
-          navTxtColor={navTxtColor}
+          navColor={navColor}
         />
         <White />
         <Sections />
