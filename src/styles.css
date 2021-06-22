@@ -98,11 +98,18 @@ a{
     padding-left: 3rem;
 }
 
-.btn-container span {
+.white-btn-text{
+    position: relative;
     font-size: 18px;
     line-height: 20px;
     font-weight: 700;
     z-index: 99;
+}
+
+.btn-container span {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
 }
 
 .white-button-hover {
@@ -120,13 +127,13 @@ a{
 
 .btn-container:hover .white-button-hover {
     background-position: right bottom;
-    opacity: 0.6;
+    opacity: 1;
     width: 220px;
 }
 
-.btn-container:hover span {
+.btn-container:hover .white-btn-text {
     color: white;
-    z-index: 99;
+
 }
 
 /* YELLOW */
@@ -603,16 +610,17 @@ a{
 
 /* SERVICES */
 
-.work-div {
+.see-all-work-div {
     max-width: max-content;
     height: max-content;
     margin: 96px 0 224px 8.33%;
     padding-left: 3rem;
     padding-right: 3rem;
-
+    cursor: pointer;
 }
 
-.work-div-hover {
+.see-all-work-btn-hover {
+    z-index: 2;
     position: absolute;
     width: 64px;
     height: 64px;
@@ -624,31 +632,41 @@ a{
     transform: translateY(-40%);
 }
 
-.work-div:hover .work-div-hover {
-    background-position: right bottom;
-    opacity: 1;
-    width: 192px;
-}
-
-
-.work-div span {
+.see-all-work-btn-text {
+    position: relative;
     font-size: 18px;
     font-weight: 700;
     transform: translate(50%, -50%);
-    z-index: 98;
-}
-
-.work-div:hover span {
-    color: white;
     z-index: 99;
 }
 
-.services-txt,
-.learn-more {
+.see-all-work-div:hover .see-all-work-btn-hover {
+    background-position: right bottom;
+    opacity: 1;
+    width: 10em;
+}
+
+.see-all-work-div:hover .see-all-work-btn-text {
+    color: white;
+}
+
+.learn-more-btn-text,
+.learn-more-btn-div {
     margin-bottom: 128px;
 }
 
-.learn-more-hover {
+.learn-more-btn-text {
+    position: relative;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-left: 8.33%;
+    font-size: 18px;
+    font-weight: 700;
+    z-index: 99;
+}
+
+.learn-more-btn-hover {
+    z-index: 2;
     position: absolute;
     width: 64px;
     height: 64px;
@@ -660,10 +678,14 @@ a{
     transform: translateY(-40%);
 }
 
-.learn-more:hover .learn-more-hover {
+.learn-more-btn-div:hover .learn-more-btn-hover {
     background-position: right bottom;
     opacity: 1;
-    width: 300px;
+    width: 20em;
+}
+
+.learn-more-btn-div:hover .learn-more-btn-text {
+    color:white;
 }
 
 #services h2 {
@@ -707,13 +729,7 @@ a{
     margin-left: 8.33%;
 }
 
-.learn-more span {
-    padding-left: 3rem;
-    padding-right: 3rem;
-    margin-left: 8.33%;
-    font-size: 18px;
-    font-weight: 700;
-}
+
 
 /* CONTACT */
 
@@ -779,7 +795,20 @@ a{
     color: grey;
 }
 
-.send-it-hover {
+
+.send-it-btn-div{
+    cursor: pointer;
+}
+
+.send-it-btn-text{
+    position: relative;
+    font-size: 18px;
+    font-weight: 700;
+    z-index: 99;
+}
+
+.send-it-btn-hover{
+    z-index: 2;
     position: absolute;
     width: 64px;
     height: 64px;
@@ -788,14 +817,20 @@ a{
     transition: all .5s ease-out;
     opacity: 0.1;
     border-radius: 24px;
-    transform: translateY(-70%);
+    transform: translateY(-40%);
 }
 
-.send-it-btn:hover .send-it-hover {
+.send-it-btn-div:hover .send-it-btn-hover{
     background-position: right bottom;
     opacity: 1;
-    width: 128px;
+    width: 7em;
 }
+
+.send-it-btn-div:hover .send-it-btn-text{
+    color:white;
+}
+
+
 
 /* FOOTER */
 

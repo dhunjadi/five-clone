@@ -10,7 +10,7 @@ export default function White() {
                 <p>Whether we’re building a new product or improving an existing one, FIVE partners with our clients to make a measurable impact. We’ve helped hundreds of organizations, including large enterprises, small businesses and even non-profits.</p>
             </div>
             <div className="btn-container">
-                <span>Learn more about us</span>
+                <span className='white-btn-text'>Learn more about us</span>
                 <span className="white-button-hover"></span>
 
             </div>

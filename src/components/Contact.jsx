@@ -15,9 +15,9 @@ export default function Contact() {
                     <div className="checkbox-div">
                         <input type="checkbox" disabled={true} /> <span>I have read and agree with FIVE's <a href='/'>privacy policy</a>.</span>
                     </div>
-                    <div className="send-it-btn">
-                        <span className='btn'>Send it!</span>
-                        <div className="send-it-hover"></div>
+                    <div className="send-it-btn-div">
+                        <span className='send-it-btn-text'>Send it!</span>
+                        <span className="send-it-btn-hover"></span>
                     </div>
 
                 </form>

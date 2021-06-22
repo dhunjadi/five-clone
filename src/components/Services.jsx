@@ -3,9 +3,9 @@ import React from 'react'
 export default function Services() {
     return (
         <div id='services' className='animate__animated animate__fadeInUp'>
-            <div className="work-div">
-                <div className='work-div-hover'></div>
-                <span>See all work</span>
+            <div className="see-all-work-div">
+                <span className='see-all-work-btn-hover'></span>
+                <span className='see-all-work-btn-text'>See all work</span>
                 
             </div>
             <div className="services-txt">
@@ -19,9 +19,9 @@ export default function Services() {
                 <li> <span>03</span> Development</li>
                 <li> <span>04</span> Growth Marketing</li>
             </ol>
-            <div className="learn-more">
-                <div className="learn-more-hover"></div>
-                <span>Learn more about our services</span>
+            <div className="learn-more-btn-div">
+                <span className="learn-more-btn-hover"></span>
+                <span className='learn-more-btn-text'>Learn more about our services</span>
             </div>
 
         </div>
