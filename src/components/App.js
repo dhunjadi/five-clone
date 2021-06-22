@@ -26,7 +26,7 @@ function App() {
       })
     } else if(window.pageYOffset > 1930 && window.pageYOffset <= 3020){
       setNavColor({
-        txt: '54deea',
+        txt: '#54deea',
         bg: '#5b4099'
       })
     } else if(window.pageYOffset > 3020 && window.pageYOffset <= 4030){

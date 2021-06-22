@@ -24,12 +24,12 @@ export default function Navbar(props) {
             </div>
             <div className="links">
                 <ul>
-                    <li style={{ color: props.navColor.txt }}> <a href="/">ABOUT</a></li>
-                    <li style={{ color: props.navColor.txt }}> <a href="/">SERVICES</a></li>
-                    <li style={{ color: props.navColor.txt }}> <a href="/">WORK</a></li>
-                    <li style={{ color: props.navColor.txt }}>CAREERS</li>
-                    <li style={{ color: props.navColor.txt }}>BLOG</li>
-                    <li style={{ color: props.navColor.txt }}>CONTACT</li>
+                    <li > <a href="/"> <span style={{ color: props.navColor.txt }}>ABOUT</span></a></li>
+                    <li > <a href="/"> <span style={{ color: props.navColor.txt }}>SERVICES</span> </a></li>
+                    <li > <a href="/"> <span style={{ color: props.navColor.txt }}>WORK</span> </a></li>
+                    <li > <a href="/"> <span style={{ color: props.navColor.txt }}>CAREERS</span> </a></li>
+                    <li > <a href="/"> <span style={{ color: props.navColor.txt }}>BLOG</span> </a></li>
+                    <li > <a href="/"> <span style={{ color: props.navColor.txt }}>CONTACT</span> </a></li>
                 </ul>
             </div>
 

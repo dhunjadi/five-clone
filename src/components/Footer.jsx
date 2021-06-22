@@ -22,7 +22,7 @@ export default function Footer() {
                 <div className="footer-up-left">
                     {CardList.map(createFooterCard)}
                 </div>
-                <div className="footer-upright">
+                <div className="footer-up-right">
                     <div className="footer-title">
                         <p>We deliver results.</p>
                         <div className="footer-socials">
@@ -39,14 +39,14 @@ export default function Footer() {
             <div className="footer-down">
                 <div className="footer-down-left">
                     <div className="footer-links">
-                        <a style={{marginLeft:'0'}} href="/">IMPACT</a>
-                        <a href="/">STUDENT INITIATIVES</a>
-                        <a href="/">LEGAL</a>
+                        <a style={{marginLeft:'0'}} href="/"> <span>IMPACT</span> </a>
+                        <a href="/"> <span>STUDENT INITIATIVES</span> </a>
+                        <a href="/"> <span>LEGAL</span> </a>
                     </div>
                 </div>
                 <div className="footer-down-right">
                     <div className="copyright">
-                        <p>© 2007–2021 FIVE</p>
+                        <p style={{marginRight:'0px'}}>© 2007–2021 FIVE</p>
                     </div>
                 </div>
             </div>

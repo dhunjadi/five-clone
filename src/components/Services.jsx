@@ -9,7 +9,7 @@ export default function Services() {
                 
             </div>
             <div className="services-txt">
-                <h1>Our services</h1>
+                <h2>Our services</h2>
                 <p>Our teams partner with clients to define problems, create solutions, design products, and build businesses that are scalable and profitable. Our end-to-end process and integrated teams are why we deliver high-performing results for every client.</p>
             </div>
 
